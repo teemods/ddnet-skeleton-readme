@@ -9,15 +9,13 @@ In order to create your mod, you will need to download this repository with the 
 git clone https://github.com/teeframe/ddnet-skeleton
 ```
 
-After downloading the repository, you will need to add your repository remote and create two branches with the following commands **inside the repository folder:**
+After downloading the repository, you will need to add your repository remote and create `main` branch with the following commands **inside the repository folder:**
 
 ```bash
 git remote remove origin
 git remote add origin YOUR_REPOSITORY_URL
 git branch -M main && git push -u origin main
 ```
-
-You will create `main` brach. 
 
 To keep your modification updated with the DDNet-Skeleton and DDNet code. You need to run the `merge-skeleton.py` script periodically.
 
