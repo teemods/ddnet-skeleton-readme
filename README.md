@@ -15,14 +15,11 @@ After downloading the repository, you will need to add your repository remote an
 git remote remove origin
 git remote add origin YOUR_REPOSITORY_URL
 git branch -M main && git push -u origin main
-git branch upstream && git push -u origin upstream
 ```
 
-You will create `main` and upstream. The `main` will be used to code your mod and the `upstream` will be used to keep your mod updated.
+You will create `main` brach. 
 
-This repository comes with an automatic Github Action, **Rebase from Skeleton**, that will sync the `upstream` changes from the skeleton to your `upstream` branch every day. In order to use that you need to activate Actions within **Actions Tab** in your repository.
-
-This repository also comes with a Github Action that syncs with the DDNet repository. **The Rebase from DDNet action should be removed from your repository.**
+To keep your modification updated with the DDNet-Skeleton and DDNet code. You need to run the `merge-skeleton.py` script periodically.
 
 ## What changes?
 
