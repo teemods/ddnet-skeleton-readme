@@ -147,3 +147,7 @@ Important files/functions if you would like to change how weapons and projectile
 - `src/game/server/entities/pickup.cpp ~ Tick` - Handle the PickUp respawn time and ammo giving (To revert DDNet changes).
 - `src/game/server/entities/pickup.cpp ~ TickPaused` - Handle the PickUp respawn time on paused (To revert DDNet changes).
 - `src/game/server/entities/pickup.cpp ~ Snap` - Handle the PickUp visibility on cooldown (Tor revert DDNet changes).
+
+## Tips about Development
+
+- Do not change manually the pPlayer->m_Team otherwise will bug using 0.7 version. Also do not use SetTeam function directly. Use and adapt the game controller DoTeamChange() instead.
