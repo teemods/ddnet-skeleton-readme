@@ -150,4 +150,4 @@ Important files/functions if you would like to change how weapons and projectile
 
 ## Tips about Development
 
-- Do not change manually the pPlayer->m_Team otherwise will bug using 0.7 version. Also do not use SetTeam function directly. Use and adapt the game controller DoTeamChange() instead.
+- Do not change manually the pPlayer->m_Team otherwise will bug using 0.7 version. Use SetTeam to force team change. If the objetive is not to force. Use the game controller DoTeamChange() instead.
