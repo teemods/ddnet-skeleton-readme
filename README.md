@@ -6,7 +6,7 @@ This repository aims to be the skeleton for creating modifications on top of the
 
 In order to create your mod, you will need to download this repository with the following command. **Please do not fork this repository or download the ZIP file without the Git History**:
 ```bash
-git clone https://github.com/teeframe/ddnet-skeleton
+git clone https://github.com/teemods/ddnet-skeleton
 ```
 
 After downloading the repository, you will need to add your repository remote and create `main` branch with the following commands **inside the repository folder:**
