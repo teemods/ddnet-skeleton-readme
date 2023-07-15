@@ -57,9 +57,9 @@ Below are some instructions you should be aware of for game type modification.
 
 ***Possible Values***
 
-- `0` - Unified Team
-- `GAMEFLAG_TEAMS` - Red and Blue team
-- `GAMEFLAG_TEAMS | GAMEFLAG_FLAGS` - Red and Blue team with Flags
+- `0` - Unified Team.
+- `GAMEFLAG_TEAMS` - Red and Blue team.
+- `GAMEFLAG_TEAMS | GAMEFLAG_FLAGS` - Red and Blue team with Flags.
 
 ### Mod Information
 
@@ -118,8 +118,8 @@ Important files/functions for how the game handles the rounds, teams, points, pl
 
 - `src/game/server/gamemodes/DDRace.cpp ~ HandleCharacterTiles` - Handle the tiles actions when player relay on it.
 - `src/game/server/gamemodes/DDRace.cpp ~ OnCharacterSpawn` - Handle the character spawn (Give specific weapons, set health, set shield).
-- `src/game/server/gamemodes/DDRace.cpp ~ OnPlayerConnect` - Handle the player connection (get data, spawn, login, etc...)
-- `src/game/server/gamemodes/DDRace.cpp ~ OnPlayerDisconnect` - Handle the player disconnection (get rebalanced, penalty, etc...)
+- `src/game/server/gamemodes/DDRace.cpp ~ OnPlayerConnect` - Handle the player connection (get data, spawn, login, etc...).
+- `src/game/server/gamemodes/DDRace.cpp ~ OnPlayerDisconnect` - Handle the player disconnection (get rebalanced, penalty, etc...).
 - `src/game/server/gamemodes/DDRace.cpp ~ DoTeamChange` - Handle the player change team action (can be used to check if the player can change team).
 
 ***Other Contexts***
@@ -152,3 +152,4 @@ Important files/functions if you would like to change how weapons and projectile
 
 - Do not change manually the pPlayer->m_Team otherwise will bug using 0.7 version. Use SetTeam to force team change. If the objetive is not to force. Use the game controller DoTeamChange() instead.
 - Be aware of snapping PickUps. Currently they have a custom size for 0.7. Using the default size of 0.7 will make the client drop connection.
+đŋ
