@@ -152,4 +152,3 @@ Important files/functions if you would like to change how weapons and projectile
 
 - Do not change manually the pPlayer->m_Team otherwise will bug using 0.7 version. Use SetTeam to force team change. If the objetive is not to force. Use the game controller DoTeamChange() instead.
 - Be aware of snapping PickUps. Currently they have a custom size for 0.7. Using the default size of 0.7 will make the client drop connection.
-đŋ
